@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.josefin-sans {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.alice-regular {
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+body{
+    background: radial-gradient(circle, rgba(37,37,37,1) 0%, rgba(41,41,41,1) 50%, rgba(42,42,42,1) 100%);
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Poppins';
+    /* overflow: hidden; */
+    --sb-track-color: rgba(255, 255, 255);
+    --sb-thumb-color: #8e68e6;
+    --sb-size: 20px;
+}
+
+body::-webkit-scrollbar {
+    width: var(--sb-size)
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 5px;
+    margin-left: 15px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 5px;
+    margin-left: 15px;
+  }
+  
+  @supports not selector(::-webkit-scrollbar) {
+    body {
+      scrollbar-color: var(--sb-thumb-color)
+                       var(--sb-track-color);
+    }
+  }
+
+a{
+    text-decoration: none;
+}
+
+input, textarea, option, a {
+  text-align: left;
+  font-family: "Poppins";
+  font-size: 18px;
+}
+
+.container1, .container2 {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    background-color: #e7e3dc;
+}
+
+.container1 {
+    margin-top: 80px;
+}
+
+.container2 {
+    margin-top: 170px;
+}
+
+h2 {
+    text-align: center;
+    color: #8156e4;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #8e68e6;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+input[type="submit"], a {
+    background-color: #8e68e6;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, a:hover {
+    background-color: #8156e4;
+}
+
+.teste{
+    margin-bottom: -15px;
+}
+
+.doido{
+    margin-left: 345px;
+}
+
+.doido2{
+    margin-left: 375px;
+}
+
+.espaco{
+    margin-top: -15px;
+}

@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.borda {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.nomerespostas {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+.resposta-inner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #e9e9e9;
+    border-radius: 5px;
+}
+
+.resposta-left, .resposta-right {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.titulo_conteudo, .data_envio, .status, .nota {
+    margin-bottom: 10px;
+}
+
+.envio_atividade {
+    white-space: pre-wrap;
+}
+
+/* Estilo para a imagem */
+.imagem-atividade {
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.sem-imagem {
+    color: #888;
+    font-size: 14px;
+}
